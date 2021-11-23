@@ -3,16 +3,17 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/purple_200">
 
     <TextView
         android:id="@+id/textViewDifficulty"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="serif-monospace"
-        android:text="Выберите сложность"
-        android:textColor="@color/black"
-        android:textSize="34sp"
+        android:text="Выберите уровень сложности"
+        android:textColor="@color/white"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -21,10 +22,10 @@
 
     <Button
         android:id="@+id/btnEasy"
-        android:layout_width="204dp"
-        android:layout_height="74dp"
+        android:layout_width="189dp"
+        android:layout_height="61dp"
         android:onClick="btnEasy_Click"
-        android:text="Легко"
+        android:text="Легкий"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -35,10 +36,10 @@
 
     <Button
         android:id="@+id/btnNormal"
-        android:layout_width="204dp"
-        android:layout_height="74dp"
+        android:layout_width="191dp"
+        android:layout_height="60dp"
         android:onClick="btnNormal_Click"
-        android:text="Нормально"
+        android:text="Средний"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -49,10 +50,10 @@
 
     <Button
         android:id="@+id/btnHard"
-        android:layout_width="204dp"
-        android:layout_height="74dp"
+        android:layout_width="185dp"
+        android:layout_height="64dp"
         android:onClick="btnDifficult_Click"
-        android:text="Сложно"
+        android:text="Сложный"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

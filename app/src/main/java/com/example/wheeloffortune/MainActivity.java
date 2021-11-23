@@ -67,9 +67,5 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-//    @Override
-//    protected void onDestroy() {
-//        super.onDestroy();
-//        if (mp.isPlaying()){mp.stop();}
-//    }
+
 }
